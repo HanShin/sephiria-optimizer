@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sephiria Optimizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app-shell">
+    <aside id="sidebar">
+      <header class="brand">
+        <h1>Sephiria Optimizer</h1>
+        <p>Windows 화면 인식 도구</p>
+      </header>
+
+      <button id="capture-button" class="primary big-button">▣ 게임 인벤토리 캡처</button>
+      <p class="help">게임에서 인벤토리를 연 뒤 <strong>F8</strong><br>작동하지 않으면 <strong>Alt+Ctrl+I</strong></p>
+
+      <div class="divider"></div>
+      <label class="field-label" for="slot-count">인벤토리 슬롯 수</label>
+      <input id="slot-count" type="number" min="18" max="60" step="1">
+      <button id="recalibrate-button" class="secondary" disabled>인벤토리 영역 다시 지정</button>
+      <button id="optimize-button" class="secondary" disabled>현재 입력으로 다시 최적화</button>
+      <button id="clear-learning-button" class="danger-text">잘못된 인식 학습 초기화</button>
+      <label class="toggle-row">
+        <input id="always-on-top" type="checkbox">
+        <span>게임 위에 창 유지</span>
+      </label>
+
+      <div class="divider"></div>
+      <div id="status" class="status-card">Sephiria에서 인벤토리를 연 뒤 F8을 누르세요.</div>
+      <div id="metrics" class="metrics hidden"></div>
+      <div class="sidebar-spacer"></div>
+      <p class="privacy">화면과 공개 아이템 정보만 읽습니다. 게임 파일·세이브·입력을 변경하지 않습니다.</p>
+    </aside>
+
+    <main id="content">
+      <section id="empty-state" class="empty-state">
+        <div class="empty-icon">▦</div>
+        <h2>인벤토리를 기다리는 중</h2>
+        <p>Sephiria에서 인벤토리를 열고 F8을 누르세요.</p>
+      </section>
+      <section id="results" class="hidden">
+        <div class="section-heading">
+          <h2>현재 인식 결과</h2>
+          <span id="recognition-summary" class="summary-chip"></span>
+        </div>
+        <p class="section-description">주황색 ‘확인 필요’ 칸을 눌러 아이템을 한 번 지정하면 다음 캡처부터 같은 아이콘으로 기억합니다. 회전 가능한 석판은 우클릭하세요.</p>
+        <div id="current-grid" class="inventory-grid"></div>
+
+        <div class="section-divider"></div>
+        <div class="section-heading">
+          <h2>추천 배치</h2>
+          <span id="overflow-badge" class="summary-chip success">증폭 초과 없음</span>
+        </div>
+        <div id="recommended-grid" class="inventory-grid"></div>
+      </section>
+    </main>
+  </div>
+
+  <div id="calibration-modal" class="modal hidden">
+    <div class="modal-panel calibration-panel">
+      <h2>인벤토리 슬롯 영역 지정</h2>
+      <p>첫 슬롯 왼쪽 위 바깥선부터 마지막 슬롯 오른쪽 아래 바깥선까지 <strong>슬롯 격자만</strong> 드래그하세요. 갈색 판의 넓은 여백은 제외합니다.</p>
+      <div class="canvas-wrap"><canvas id="calibration-canvas"></canvas></div>
+      <div class="modal-actions">
+        <button id="cancel-calibration" class="secondary">취소</button>
+        <button id="confirm-calibration" class="primary" disabled>이 영역 사용</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="picker-modal" class="modal hidden">
+    <div class="modal-panel picker-panel">
+      <div class="picker-header">
+        <div>
+          <h2 id="picker-title">아이템 확인</h2>
+          <p>캡처 아이콘과 후보 그림을 비교해 정확한 아이템을 선택하세요.</p>
+        </div>
+        <button id="close-picker" class="icon-button" aria-label="닫기">×</button>
+      </div>
+      <div class="picker-tools">
+        <div id="captured-preview-wrap" class="captured-preview-wrap">
+          <img id="captured-preview" alt="게임에서 캡처한 아이콘">
+          <span>게임 캡처</span>
+        </div>
+        <div class="search-tools">
+          <input id="item-search" type="search" placeholder="아이템 이름 검색">
+          <select id="kind-filter">
+            <option value="all">전체</option>
+            <option value="artifact">아티팩트</option>
+            <option value="tablet">석판</option>
+          </select>
+          <button id="set-empty" class="danger-text">이 칸을 빈칸으로 설정</button>
+        </div>
+      </div>
+      <div id="picker-list" class="picker-list"></div>
+    </div>
+  </div>
+
+  <div id="source-modal" class="modal hidden">
+    <div class="modal-panel source-panel">
+      <h2>캡처할 게임 창 선택</h2>
+      <p>Sephiria 창을 자동으로 찾지 못했습니다. 아래에서 게임 창을 선택하세요.</p>
+      <div id="source-list" class="source-list"></div>
+      <div class="modal-actions"><button id="cancel-source" class="secondary">취소</button></div>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

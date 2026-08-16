@@ -1,0 +1,98 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+permissions:
+  contents: write
+
+jobs:
+  windows:
+    name: Build Windows x64 ZIP
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: windows/package-lock.json
+      - name: Verify tag and version
+        shell: bash
+        run: |
+          node scripts/version.mjs check
+          test "v$(cat VERSION)" = "$GITHUB_REF_NAME"
+      - run: npm ci
+        working-directory: windows
+      - run: npm test
+        working-directory: windows
+      - run: npm run dist:win
+        working-directory: windows
+      - name: Create Windows checksum
+        shell: pwsh
+        run: |
+          $zip = Get-ChildItem "windows/dist/Sephiria-Optimizer-Windows-*-x64.zip" | Select-Object -First 1
+          if (-not $zip) { throw "Windows ZIP was not created." }
+          $hash = (Get-FileHash $zip.FullName -Algorithm SHA256).Hash.ToLower()
+          Set-Content -Path "$($zip.FullName).sha256" -Value "$hash  $($zip.Name)" -Encoding ascii
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows-release
+          path: |
+            windows/dist/Sephiria-Optimizer-Windows-*-x64.zip
+            windows/dist/Sephiria-Optimizer-Windows-*-x64.zip.sha256
+          if-no-files-found: error
+
+  macos:
+    name: Build macOS ZIP
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify tag and version
+        run: |
+          node scripts/version.mjs check
+          test "v$(cat VERSION)" = "$GITHUB_REF_NAME"
+      - name: Run Swift tests
+        env:
+          CLANG_MODULE_CACHE_PATH: ${{ runner.temp }}/sephiria-clang-cache
+          SWIFTPM_MODULECACHE_OVERRIDE: ${{ runner.temp }}/sephiria-swiftpm-module-cache
+        run: swift test --disable-sandbox --cache-path "${{ runner.temp }}/sephiria-swiftpm-cache"
+      - name: Package macOS app
+        run: |
+          ./scripts/package_app.sh
+          version="$(cat VERSION)"
+          archive="dist/Sephiria-Optimizer-macOS-${version}.zip"
+          ditto -c -k --sequesterRsrc --keepParent "dist/Sephiria Optimizer.app" "$archive"
+          cd dist
+          shasum -a 256 "$(basename "$archive")" > "$(basename "$archive").sha256"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: macos-release
+          path: |
+            dist/Sephiria-Optimizer-macOS-*.zip
+            dist/Sephiria-Optimizer-macOS-*.zip.sha256
+          if-no-files-found: error
+
+  publish:
+    name: Publish GitHub Release
+    needs: [windows, macos]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: release-assets
+          merge-multiple: true
+      - name: Publish release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" release-assets/* \
+            --repo "$GITHUB_REPOSITORY" \
+            --verify-tag \
+            --generate-notes \
+            --title "Sephiria Optimizer $GITHUB_REF_NAME"

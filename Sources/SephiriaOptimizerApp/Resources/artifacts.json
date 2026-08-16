@@ -1,0 +1,2405 @@
+[
+  {
+    "id": 1,
+    "value": "reinforced_potion_lid",
+    "label_kor": "강화 포션 뚜껑",
+    "label_eng": "reinforced_potion_lid",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/reinforced_potion_lid.webp",
+    "level": 0
+  },
+  {
+    "id": 2,
+    "value": "eye_crystal_necklace",
+    "label_kor": "눈 결정 목걸이",
+    "label_eng": "eye_crystal_necklace",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/eye_crystal_necklace.png",
+    "level": 2
+  },
+  {
+    "id": 3,
+    "value": "mast_model",
+    "label_kor": "돛대 모형",
+    "label_eng": "mast_model",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/mast_model.png",
+    "level": 2
+  },
+  {
+    "id": 4,
+    "value": "lightning_bolt",
+    "label_kor": "라이트닝 볼트",
+    "label_eng": "lightning_bolt",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/lightning_bolt.png",
+    "level": 1
+  },
+  {
+    "id": 5,
+    "value": "wizard",
+    "label_kor": "마법사의 동전",
+    "label_eng": "wizard",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/wizard.png",
+    "level": 2
+  },
+  {
+    "id": 6,
+    "value": "dried_flower",
+    "label_kor": "말라버린 꽃",
+    "label_eng": "dried_flower",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/dried_flower.png",
+    "level": 2
+  },
+  {
+    "id": 7,
+    "value": "amulet",
+    "label_kor": "명석함의 부적",
+    "label_eng": "amulet",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/amulet.webp",
+    "level": 3
+  },
+  {
+    "id": 8,
+    "value": "windpool_shawl",
+    "label_kor": "바람풀 목도리",
+    "label_eng": "windpool_shawl",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/windpool_shawl.png",
+    "level": 3
+  },
+  {
+    "id": 9,
+    "value": "shield_technique_manual",
+    "label_kor": "방패술 교본",
+    "label_eng": "shield_technique_manual",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/shield_technique_manual.png",
+    "level": 1
+  },
+  {
+    "id": 10,
+    "value": "begonia_flavor_pocket",
+    "label_kor": "베고니아 향 주머니",
+    "label_eng": "begonia_flavor_pocket",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/begonia_flavor_pocket.png",
+    "level": 1
+  },
+  {
+    "id": 11,
+    "value": "shield",
+    "label_kor": "보호막",
+    "label_eng": "shield",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/shield.webp",
+    "level": 1
+  },
+  {
+    "id": 12,
+    "value": "unclean_bandage",
+    "label_kor": "부정한 붕대",
+    "label_eng": "unclean_bandage",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/unclean_bandage.png",
+    "level": 3
+  },
+  {
+    "id": 13,
+    "value": "ice_bolt",
+    "label_kor": "아이스 볼트",
+    "label_eng": "ice_bolt",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/ice_bolt.png",
+    "level": 1
+  },
+  {
+    "id": 14,
+    "value": "compression_band",
+    "label_kor": "압박 밴드",
+    "label_eng": "compression_band",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/compression_band.png",
+    "level": 2
+  },
+  {
+    "id": 15,
+    "value": "endodits_questionnaire",
+    "label_kor": "엔도디토의 문진",
+    "label_eng": "endodits_questionnaire",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/endodits_questionnaire.png",
+    "level": 2
+  },
+  {
+    "id": 16,
+    "value": "smoke_screen",
+    "label_kor": "연막",
+    "label_eng": "smoke_screen",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/smoke_screen.png",
+    "level": 0
+  },
+  {
+    "id": 17,
+    "value": "amulet_of_aspiration",
+    "label_kor": "열망의 부적",
+    "label_eng": "amulet_of_aspiration",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/amulet_of_aspiration.png",
+    "level": 3
+  },
+  {
+    "id": 18,
+    "value": "ohia_lehua",
+    "label_kor": "오히아 레후아",
+    "label_eng": "ohia_lehua",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/ohia_lehua.webp",
+    "level": 2
+  },
+  {
+    "id": 19,
+    "value": "silver_plate",
+    "label_kor": "은접시",
+    "label_eng": "silver_plate",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/silver_plate.png",
+    "level": 2
+  },
+  {
+    "id": 20,
+    "value": "straw",
+    "label_kor": "지푸라기 인형",
+    "label_eng": "straw",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/straw.png",
+    "level": 2
+  },
+  {
+    "id": 21,
+    "value": "chiri",
+    "label_kor": "찌릿 슈크림빵",
+    "label_eng": "chiri",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/chiri.png",
+    "level": 2
+  },
+  {
+    "id": 22,
+    "value": "cloth_armor",
+    "label_kor": "천 갑옷",
+    "label_eng": "cloth_armor",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/cloth_armor.png",
+    "level": 1
+  },
+  {
+    "id": 23,
+    "value": "green_tooth",
+    "label_kor": "초록색 톱니",
+    "label_eng": "green_tooth",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/green_tooth.png",
+    "level": 0
+  },
+  {
+    "id": 24,
+    "value": "blessing",
+    "label_kor": "축복",
+    "label_eng": "blessing",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/blessing.png",
+    "level": 2
+  },
+  {
+    "id": 25,
+    "value": "calges",
+    "label_kor": "캘세더니 열쇠",
+    "label_eng": "calges",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/calges_2.png",
+    "level": 3
+  },
+  {
+    "id": 26,
+    "value": "criton",
+    "label_kor": "크리톤의 인장",
+    "label_eng": "criton",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/criton.png",
+    "level": 2
+  },
+  {
+    "id": 27,
+    "value": "fire_bolt",
+    "label_kor": "파이어 볼트",
+    "label_eng": "fire_bolt",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/fire_bolt.png",
+    "level": 1
+  },
+  {
+    "id": 28,
+    "value": "pro",
+    "label_kor": "프로슘 반지",
+    "label_eng": "pro",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/pro.png",
+    "level": 2
+  },
+  {
+    "id": 29,
+    "value": "golden_leaf",
+    "label_kor": "황금 단풍잎",
+    "label_eng": "golden_leaf",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/golden_leaf.png",
+    "level": 0
+  },
+  {
+    "id": 30,
+    "value": "amulet_of_power",
+    "label_kor": "힘의 부적",
+    "label_eng": "amulet_of_power",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/amulet_of_power.webp",
+    "level": 3
+  },
+  {
+    "id": 31,
+    "value": "thornbush",
+    "label_kor": "가시덤불",
+    "label_eng": "thornbush",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/thornbush.png",
+    "level": 4
+  },
+  {
+    "id": 32,
+    "value": "thorn_shell",
+    "label_kor": "가시 등껍질",
+    "label_eng": "thorn_shell",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/thorn_shell.png",
+    "level": 2
+  },
+  {
+    "id": 33,
+    "value": "viscosity",
+    "label_kor": "가시 부적",
+    "label_eng": "viscosity",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/viscosity.png",
+    "level": 3
+  },
+  {
+    "id": 34,
+    "value": "simple_contract",
+    "label_kor": "간이 계약서",
+    "label_eng": "simple_contract",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/simple_contract.png",
+    "level": 5
+  },
+  {
+    "id": 35,
+    "value": "craving",
+    "label_kor": "갈망의 보주",
+    "label_eng": "craving",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/craving.png",
+    "level": 3
+  },
+  {
+    "id": 36,
+    "value": "cloud_bottle",
+    "label_kor": "구름 병",
+    "label_eng": "cloud_bottle",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/cloud_bottle.png",
+    "level": 5
+  },
+  {
+    "id": 37,
+    "value": "cloud_seed_arrowhead",
+    "label_kor": "구름씨 화살촉",
+    "label_eng": "cloud_seed_arrowhead",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/cloud_seed_arrowhead.png",
+    "level": 5
+  },
+  {
+    "id": 38,
+    "value": "gold_cloak",
+    "label_kor": "금빛 망토",
+    "label_eng": "gold_cloak",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/gold_cloak.png",
+    "level": 2
+  },
+  {
+    "id": 39,
+    "value": "golden_hand_bell",
+    "label_kor": "금빛 핸드벨",
+    "label_eng": "golden_hand_bell",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/golden_hand_bell.png",
+    "level": 4
+  },
+  {
+    "id": 40,
+    "value": "broken_mirror",
+    "label_kor": "깨진 거울",
+    "label_eng": "broken_mirror",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/broken_mirror.png",
+    "level": 1
+  },
+  {
+    "id": 41,
+    "value": "yellow_planet",
+    "label_kor": "노란 행성",
+    "label_eng": "yellow_planet",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/yellow_planet.png",
+    "level": 6
+  },
+  {
+    "id": 42,
+    "value": "snowborne",
+    "label_kor": "눈보라 망치",
+    "label_eng": "snowborne",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/snowborne.png",
+    "level": 5
+  },
+  {
+    "id": 43,
+    "value": "great_blessing",
+    "label_kor": "대축복",
+    "label_eng": "great_blessing",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/great_blessing.png",
+    "level": 2
+  },
+  {
+    "id": 44,
+    "value": "ray_known",
+    "label_kor": "레이에 별조각",
+    "label_eng": "ray_known",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/ray_known.png",
+    "level": 3
+  },
+  {
+    "id": 45,
+    "value": "lip",
+    "label_kor": "리포스테 봉 파편",
+    "label_eng": "lip",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/lip.png",
+    "level": 5
+  },
+  {
+    "id": 46,
+    "value": "magma_bead",
+    "label_kor": "마그마 구슬",
+    "label_eng": "magma_bead",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/magma_bead.png",
+    "level": 3
+  },
+  {
+    "id": 47,
+    "value": "magic_carrot",
+    "label_kor": "마법 당근",
+    "label_eng": "magic_carrot",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/magic_carrot.png",
+    "level": 4
+  },
+  {
+    "id": 48,
+    "value": "kaleidoscope",
+    "label_kor": "만화경",
+    "label_eng": "kaleidoscope",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/kaleidoscope.png",
+    "level": 4
+  },
+  {
+    "id": 49,
+    "value": "fascinating_lure",
+    "label_kor": "매혹하는 루어",
+    "label_eng": "fascinating_lure",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/fascinating_lure.webp",
+    "level": 2
+  },
+  {
+    "id": 50,
+    "value": "water_bag",
+    "label_kor": "물주머니",
+    "label_eng": "water_bag",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/water_bag.png",
+    "level": 3
+  },
+  {
+    "id": 51,
+    "value": "mini_balista",
+    "label_kor": "미니 발리스타",
+    "label_eng": "mini_balista",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/mini_balista.png",
+    "level": 4
+  },
+  {
+    "id": 52,
+    "value": "vane",
+    "label_kor": "바람개비",
+    "label_eng": "vane",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/vane.png",
+    "level": 2
+  },
+  {
+    "id": 53,
+    "value": "firefly",
+    "label_kor": "반딧불이",
+    "label_eng": "firefly",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/firefly.webp",
+    "level": 2
+  },
+  {
+    "id": 54,
+    "value": "balisong",
+    "label_kor": "발리송",
+    "label_eng": "balisong",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/balisong.png",
+    "level": 3
+  },
+  {
+    "id": 55,
+    "value": "ignition",
+    "label_kor": "발화 기름",
+    "label_eng": "ignition",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/ignition.png",
+    "level": 3
+  },
+  {
+    "id": 56,
+    "value": "shield_earring",
+    "label_kor": "방패 귀고리",
+    "label_eng": "shield_earring",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/shield_earring.webp",
+    "level": 3
+  },
+  {
+    "id": 57,
+    "value": "discarded_gold_ring",
+    "label_kor": "버려진 금반지",
+    "label_eng": "discarded_gold_ring",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/discarded_gold_ring.png",
+    "level": 2
+  },
+  {
+    "id": 58,
+    "value": "lightning_boomerang",
+    "label_kor": "번개 부메랑",
+    "label_eng": "lightning_boomerang",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/lightningboomerang.png",
+    "level": 4
+  },
+  {
+    "id": 59,
+    "value": "phoenix",
+    "label_kor": "봉황의 날개깃",
+    "label_eng": "phoenix",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/phoenix.png",
+    "level": 2
+  },
+  {
+    "id": 60,
+    "value": "red_snake_eye",
+    "label_kor": "붉은 뱀의 눈",
+    "label_eng": "red_snake_eye",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/red_snake_eye.png",
+    "level": 5
+  },
+  {
+    "id": 61,
+    "value": "red_dew",
+    "label_kor": "붉은 이슬",
+    "label_eng": "red_dew",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/red_dew.webp",
+    "level": 3
+  },
+  {
+    "id": 62,
+    "value": "piece_of_red_cloth",
+    "label_kor": "붉은 천 조각",
+    "label_eng": "piece_of_red_cloth",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/piece_of_red_cloth.webp",
+    "level": 3
+  },
+  {
+    "id": 63,
+    "value": "red_planet",
+    "label_kor": "붉은 행성",
+    "label_eng": "red_planet",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/red_planet.webp",
+    "level": 6
+  },
+  {
+    "id": 64,
+    "value": "ice_snow",
+    "label_kor": "빙설덩굴",
+    "label_eng": "ice_snow",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/ice_snow.png",
+    "level": 2
+  },
+  {
+    "id": 65,
+    "value": "glacier",
+    "label_kor": "빙하의 메아리",
+    "label_eng": "glacier",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/glacier.png",
+    "level": 3
+  },
+  {
+    "id": 66,
+    "value": "point",
+    "label_kor": "뾰족 도토리",
+    "label_eng": "point",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/point.webp",
+    "level": 3
+  },
+  {
+    "id": 67,
+    "value": "storm",
+    "label_kor": "뾰족 부싯돌",
+    "label_eng": "storm",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/storm.webp",
+    "level": 3
+  },
+  {
+    "id": 68,
+    "value": "sapote",
+    "label_kor": "사포테 열매",
+    "label_eng": "sapote",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/sapote.png",
+    "level": 3
+  },
+  {
+    "id": 69,
+    "value": "sharp_eye",
+    "label_kor": "샤프 아이",
+    "label_eng": "sharp_eye",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/sharp_eye.png",
+    "level": 2
+  },
+  {
+    "id": 70,
+    "value": "frost_dagger",
+    "label_kor": "서리 단검",
+    "label_eng": "frost_dagger",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/frost_dagger.png",
+    "level": 4
+  },
+  {
+    "id": 71,
+    "value": "crossbow_quiver",
+    "label_kor": "석궁 화살통",
+    "label_eng": "crossbow_quiver",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/crossbow_quiver.webp",
+    "level": 3
+  },
+  {
+    "id": 72,
+    "value": "pure_cloak",
+    "label_kor": "순백의 망토",
+    "label_eng": "pure_cloak",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/pure_cloak.png",
+    "level": 5
+  },
+  {
+    "id": 73,
+    "value": "star_ruby",
+    "label_kor": "스타 루비",
+    "label_eng": "star_ruby",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/star_ruby.png",
+    "level": 2
+  },
+  {
+    "id": 74,
+    "value": "star_aqua_marine",
+    "label_kor": "스타 아쿠아마린",
+    "label_eng": "star_aqua_marine",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/star_aqua_marine.png",
+    "level": 2
+  },
+  {
+    "id": 75,
+    "value": "single_tree_charcoal",
+    "label_kor": "신갈나무 숯",
+    "label_eng": "single_tree_charcoal",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/single_tree_charcoal.webp",
+    "level": 4
+  },
+  {
+    "id": 76,
+    "value": "agbae_tree_fruit",
+    "label_kor": "아그배나무 열매",
+    "label_eng": "agbae_tree_fruit",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/agbae_tree_fruit.png",
+    "level": 2
+  },
+  {
+    "id": 77,
+    "value": "ice_star",
+    "label_kor": "아이스 스타",
+    "label_eng": "ice_star",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/ice_star.png",
+    "level": 5
+  },
+  {
+    "id": 78,
+    "value": "sheet_music_bree",
+    "label_kor": "악보 '바람'",
+    "label_eng": "sheet_music_bree",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/sheet_music_bree.png",
+    "level": 4
+  },
+  {
+    "id": 80,
+    "value": "obruss_blood",
+    "label_kor": "오브러스의 피",
+    "label_eng": "obruss_blood",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/obruss_blood.png",
+    "level": 3
+  },
+  {
+    "id": 82,
+    "value": "keel_fragment",
+    "label_kor": "용골 파편",
+    "label_eng": "keel_fragment",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/keel_fragment.png",
+    "level": 3
+  },
+  {
+    "id": 83,
+    "value": "ambergris",
+    "label_kor": "용연향",
+    "label_eng": "ambergris",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/ambergris.webp",
+    "level": 4
+  },
+  {
+    "id": 84,
+    "value": "glass_hammer",
+    "label_kor": "유리 망치",
+    "label_eng": "glass_hammer",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/glass_hammer.png",
+    "level": 3
+  },
+  {
+    "id": 85,
+    "value": "silver_bracelet",
+    "label_kor": "은팔찌",
+    "label_eng": "silver_bracelet",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/silver_bracelet.png",
+    "level": 3
+  },
+  {
+    "id": 86,
+    "value": "leafy_leather",
+    "label_kor": "잎새 가죽",
+    "label_eng": "leafy_leather",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/leafy_leather.png",
+    "level": 3
+  },
+  {
+    "id": 87,
+    "value": "small_magic",
+    "label_kor": "작은 마법 고둥",
+    "label_eng": "small_magic",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/small_magic.png",
+    "level": 2
+  },
+  {
+    "id": 88,
+    "value": "mark_of_warrior",
+    "label_kor": "전사의 증표",
+    "label_eng": "mark_of_warrior",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/mark_of_warrior.png",
+    "level": 5
+  },
+  {
+    "id": 89,
+    "value": "rat_pendant",
+    "label_kor": "쥐 마법사의 펜던트",
+    "label_eng": "rat_pendant",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/rat_pendant.png",
+    "level": 1
+  },
+  {
+    "id": 90,
+    "value": "pearl_powder",
+    "label_kor": "진주 가루",
+    "label_eng": "pearl_powder",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/pearl_powder.png",
+    "level": 2
+  },
+  {
+    "id": 91,
+    "value": "cold_lock",
+    "label_kor": "차가운 자물쇠",
+    "label_eng": "cold_lock",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/cold_lock.png",
+    "level": 4
+  },
+  {
+    "id": 92,
+    "value": "chakram",
+    "label_kor": "차크람",
+    "label_eng": "chakram",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/chakram.png",
+    "level": 4
+  },
+  {
+    "id": 94,
+    "value": "gap",
+    "label_kor": "축사의 검집",
+    "label_eng": "gap",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/gap.png",
+    "level": 6
+  },
+  {
+    "id": 95,
+    "value": "kunai",
+    "label_kor": "쿠나이",
+    "label_eng": "kunai",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/kunai.png",
+    "level": 2
+  },
+  {
+    "id": 96,
+    "value": "terros_soul_powder",
+    "label_kor": "테로의 영혼 가루",
+    "label_eng": "terros_soul_powder",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/terros_soul_powder.png",
+    "level": 5
+  },
+  {
+    "id": 97,
+    "value": "fire_arrow",
+    "label_kor": "파이어 애로우",
+    "label_eng": "fire_arrow",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/fire_arrow.png",
+    "level": 2
+  },
+  {
+    "id": 98,
+    "value": "palas_card",
+    "label_kor": "팔라스의 카드",
+    "label_eng": "palas_card",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/palas_card.png",
+    "level": 4
+  },
+  {
+    "id": 99,
+    "value": "blue_pearl",
+    "label_kor": "푸른 진주",
+    "label_eng": "blue_pearl",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/blue_pearl.png",
+    "level": 3
+  },
+  {
+    "id": 100,
+    "value": "blue_planet",
+    "label_kor": "푸른 행성",
+    "label_eng": "blue_planet",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/blue_planet.png",
+    "level": 5
+  },
+  {
+    "id": 101,
+    "value": "sky_blue_planet",
+    "label_kor": "하늘색 행성",
+    "label_eng": "sky_blue_planet",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/sky_blue_planet.png",
+    "level": 5
+  },
+  {
+    "id": 102,
+    "value": "haste",
+    "label_kor": "헤이스트",
+    "label_eng": "haste",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/haste.png",
+    "level": 2
+  },
+  {
+    "id": 103,
+    "value": "helenas_staircase",
+    "label_kor": "헬레나의 계단 모형",
+    "label_eng": "helenas_staircase",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/helenas_staircase.png",
+    "level": 5
+  },
+  {
+    "id": 104,
+    "value": "fluorescence",
+    "label_kor": "형광 부적",
+    "label_eng": "fluorescence",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/fluorescence.png",
+    "level": 4
+  },
+  {
+    "id": 105,
+    "value": "amber",
+    "label_kor": "호박석",
+    "label_eng": "amber",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/amber.png",
+    "level": 3
+  },
+  {
+    "id": 106,
+    "value": "flame",
+    "label_kor": "화염 가리개",
+    "label_eng": "flame",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/flame.png",
+    "level": 2
+  },
+  {
+    "id": 107,
+    "value": "flame_sword",
+    "label_kor": "화염 이극검",
+    "label_eng": "flame_sword",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/flame_sword.png",
+    "level": 5
+  },
+  {
+    "id": 108,
+    "value": "waters",
+    "label_kor": "회복의 물줄기",
+    "label_eng": "waters",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/waters.png",
+    "level": 0
+  },
+  {
+    "id": 109,
+    "value": "sword_earring",
+    "label_kor": "검 귀고리",
+    "label_eng": "sword_earring",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/sword_earring.webp",
+    "level": 3
+  },
+  {
+    "id": 110,
+    "value": "swordsmanship_textbook",
+    "label_kor": "검술 교본",
+    "label_eng": "swordsmanship_textbook",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/swordsmanship_textbook.png",
+    "level": 2
+  },
+  {
+    "id": 111,
+    "value": "flag_of_encouragement",
+    "label_kor": "격려의 깃발",
+    "label_eng": "flag_of_encouragement",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/flag_of_encouragement.png",
+    "level": 2
+  },
+  {
+    "id": 112,
+    "value": "warning",
+    "label_kor": "경고 문서",
+    "label_eng": "warning",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/warning.webp",
+    "level": 1
+  },
+  {
+    "id": 113,
+    "value": "employment_sentence_coline",
+    "label_kor": "고용 문장 '콜린'",
+    "label_eng": "employment_sentence_coline",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/employment_sentence_coline.png",
+    "level": 2
+  },
+  {
+    "id": 114,
+    "value": "pride",
+    "label_kor": "교만의 금관",
+    "label_eng": "pride",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/pride.png",
+    "level": 4
+  },
+  {
+    "id": 115,
+    "value": "giraffe_horns",
+    "label_kor": "기린의 뿔",
+    "label_eng": "giraffe_horns",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/giraffe_horns.png",
+    "level": 2
+  },
+  {
+    "id": 116,
+    "value": "pot_lid",
+    "label_kor": "냄비 뚜껑",
+    "label_eng": "pot_lid",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/pot_lid.png",
+    "level": 5
+  },
+  {
+    "id": 117,
+    "value": "green_clothes",
+    "label_kor": "녹색 도복",
+    "label_eng": "green_clothes",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/green_clothes.png",
+    "level": 3
+  },
+  {
+    "id": 118,
+    "value": "brain",
+    "label_kor": "뇌운추적 나침반",
+    "label_eng": "brain",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/brain.png",
+    "level": 3
+  },
+  {
+    "id": 119,
+    "value": "multi_use_belt",
+    "label_kor": "다용도 벨트",
+    "label_eng": "multi_use_belt",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/multi_use_belt.png",
+    "level": 3
+  },
+  {
+    "id": 120,
+    "value": "libra",
+    "label_kor": "대립의 천칭",
+    "label_eng": "libra",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/libra.png",
+    "level": 5
+  },
+  {
+    "id": 121,
+    "value": "lizard_sheet",
+    "label_kor": "도마뱀 판금 갑옷",
+    "label_eng": "lizard_sheet",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/lizard_sheet.png",
+    "level": 4
+  },
+  {
+    "id": 122,
+    "value": "library_miniature",
+    "label_kor": "도서관 분침 미니어처",
+    "label_eng": "library_miniature",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/library_miniature.png",
+    "level": 2
+  },
+  {
+    "id": 123,
+    "value": "warm_stone",
+    "label_kor": "따뜻한 돌",
+    "label_eng": "warm_stone",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/warm_stone.png",
+    "level": 3
+  },
+  {
+    "id": 124,
+    "value": "magic_glasses",
+    "label_kor": "마법의 안경",
+    "label_eng": "magic_glasses",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/magic_glasses.png",
+    "level": 3
+  },
+  {
+    "id": 125,
+    "value": "magic_gem",
+    "label_kor": "마법의 정석",
+    "label_eng": "magic_gem",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/magic_gem.png",
+    "level": 4
+  },
+  {
+    "id": 126,
+    "value": "model_beak",
+    "label_kor": "모형 부리",
+    "label_eng": "model_beak",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/model_beak.png",
+    "level": 4
+  },
+  {
+    "id": 127,
+    "value": "dull_drop",
+    "label_kor": "무뎌진 방울",
+    "label_eng": "dull_drop",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/dull_drop.png",
+    "level": 2
+  },
+  {
+    "id": 128,
+    "value": "colorless_cube",
+    "label_kor": "무색 큐브",
+    "label_eng": "colorless_cube",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/colorless_cube.png",
+    "level": 4
+  },
+  {
+    "id": 129,
+    "value": "lightstone",
+    "label_kor": "번갯돌",
+    "label_eng": "lightstone",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/lightstone.png",
+    "level": 6
+  },
+  {
+    "id": 130,
+    "value": "jewelry_armor",
+    "label_kor": "보석 갑옷",
+    "label_eng": "jewelry_armor",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/jewelry_armor.png",
+    "level": 2
+  },
+  {
+    "id": 131,
+    "value": "voluspa",
+    "label_kor": "볼루스파",
+    "label_eng": "voluspa",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/voluspa.png",
+    "level": 5
+  },
+  {
+    "id": 132,
+    "value": "broken_root",
+    "label_kor": "부서진 나무뿌리",
+    "label_eng": "broken_root",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/broken.png",
+    "level": 4
+  },
+  {
+    "id": 133,
+    "value": "fire_circus",
+    "label_kor": "불 서커스",
+    "label_eng": "fire_circus",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/fire_circus.png",
+    "level": 3
+  },
+  {
+    "id": 134,
+    "value": "red_thread",
+    "label_kor": "붉은 실뭉치",
+    "label_eng": "red_thread",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/red_thread.png",
+    "level": 4
+  },
+  {
+    "id": 135,
+    "value": "freezing_bug",
+    "label_kor": "빙결충",
+    "label_eng": "freezing_bug",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/freezing_bug.png",
+    "level": 5
+  },
+  {
+    "id": 136,
+    "value": "pointed_bat",
+    "label_kor": "뾰족한 방망이",
+    "label_eng": "pointed_bat",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/pointed_bat.png",
+    "level": 2
+  },
+  {
+    "id": 137,
+    "value": "touch_of_life",
+    "label_kor": "생명의 손길",
+    "label_eng": "touch_of_life",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/touch_of_life.png",
+    "level": 3
+  },
+  {
+    "id": 138,
+    "value": "serens_wanging_letter",
+    "label_kor": "세렌의 휘갈긴 편지",
+    "label_eng": "serens_wanging_letter",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/serens_wanging_letter.png",
+    "level": 2
+  },
+  {
+    "id": 139,
+    "value": "agma_projection_sword",
+    "label_kor": "아그마 투영검 190,191번",
+    "label_eng": "agma_projection_sword",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/agma_projection_sword.png",
+    "level": 7
+  },
+  {
+    "id": 140,
+    "value": "academy_brigendin",
+    "label_kor": "아카데미 브리건딘",
+    "label_eng": "academy_brigendin",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/academy_brigendin.png",
+    "level": 5
+  },
+  {
+    "id": 141,
+    "value": "alfonsos_horn",
+    "label_kor": "알폰소의 뿔",
+    "label_eng": "alfonsos_horn",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/alfonsos_horn.webp",
+    "level": 7
+  },
+  {
+    "id": 142,
+    "value": "arrow_lane",
+    "label_kor": "애로우 레인",
+    "label_eng": "arrow_lane",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/arrow_lane.png",
+    "level": 3
+  },
+  {
+    "id": 143,
+    "value": "thin_cushion",
+    "label_kor": "얇은 방석",
+    "label_eng": "thin_cushion",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/thin_cushion.png",
+    "level": 6
+  },
+  {
+    "id": 144,
+    "value": "frozen_egg",
+    "label_kor": "얼어버린 알",
+    "label_eng": "frozen_egg",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/frozen_egg.png",
+    "level": 3
+  },
+  {
+    "id": 145,
+    "value": "frozen_heart",
+    "label_kor": "얼어붙은 심장",
+    "label_eng": "frozen_heart",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/frozen_heart.png",
+    "level": 7
+  },
+  {
+    "id": 146,
+    "value": "ice_seagull",
+    "label_kor": "얼음갈매기의 발",
+    "label_eng": "ice_seagull",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/ice_seagull.png",
+    "level": 3
+  },
+  {
+    "id": 147,
+    "value": "oink_shaman_necklace",
+    "label_kor": "오잉크 주술사의 목걸이",
+    "label_eng": "oink_shaman_necklace",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/oink_shaman_necklace.png",
+    "level": 4
+  },
+  {
+    "id": 148,
+    "value": "bishopric",
+    "label_kor": "이각수 관",
+    "label_eng": "bishopric",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/bishopric.png",
+    "level": 5
+  },
+  {
+    "id": 149,
+    "value": "artificial_spirit",
+    "label_kor": "인공정령 이피엘",
+    "label_eng": "artificial_spirit",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/artificial_spirit.png",
+    "level": 5
+  },
+  {
+    "id": 150,
+    "value": "combat_wizard_gloves",
+    "label_kor": "전투 마법사의 장갑",
+    "label_eng": "combat_wizard_gloves",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/combat_wizard_gloves.png",
+    "level": 3
+  },
+  {
+    "id": 151,
+    "value": "reloaded_wooden_box",
+    "label_kor": "재장전용 나무 상자",
+    "label_eng": "reloaded_wooden_box",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/reloaded_wooden_box.png",
+    "level": 4
+  },
+  {
+    "id": 152,
+    "value": "thunder",
+    "label_kor": "천둥 갑옷",
+    "label_eng": "thunder",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/thunder.png",
+    "level": 4
+  },
+  {
+    "id": 153,
+    "value": "bronze_mirror",
+    "label_kor": "청동거울 파편",
+    "label_eng": "bronze_mirror",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/bronze_mirror.png",
+    "level": 3
+  },
+  {
+    "id": 154,
+    "value": "rabbit_village_guard_helm",
+    "label_kor": "토끼 마을 경비병 투구",
+    "label_eng": "rabbit_village_guard_helm",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/rabbit_village_guard_helm.webp",
+    "level": 3
+  },
+  {
+    "id": 155,
+    "value": "blue_ring",
+    "label_kor": "푸른 고리",
+    "label_eng": "blue_ring",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/blue_ring.png",
+    "level": 3
+  },
+  {
+    "id": 156,
+    "value": "fluffy",
+    "label_kor": "푹신한 털장갑",
+    "label_eng": "fluffy",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/fluffy.png",
+    "level": 4
+  },
+  {
+    "id": 157,
+    "value": "white_twig",
+    "label_kor": "하얀 나뭇가지",
+    "label_eng": "white_twig",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/white_twig.webp",
+    "level": 4
+  },
+  {
+    "id": 158,
+    "value": "white_egg_shell",
+    "label_kor": "하얀 알 껍질",
+    "label_eng": "white_egg_shell",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/white_egg_shell.png",
+    "level": 4
+  },
+  {
+    "id": 159,
+    "value": "white_planet",
+    "label_kor": "하얀 행성",
+    "label_eng": "white_planet",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/white_planet.png",
+    "level": 7
+  },
+  {
+    "id": 160,
+    "value": "heart_shaped_carrot",
+    "label_kor": "하트모양 당근",
+    "label_eng": "heart_shaped_carrot",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/heart_shaped_carrot.webp",
+    "level": 4
+  },
+  {
+    "id": 161,
+    "value": "bloodstone_ring",
+    "label_kor": "혈석 반지",
+    "label_eng": "bloodstone_ring",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/bloodstone_ring.png",
+    "level": 2
+  },
+  {
+    "id": 162,
+    "value": "black_tea",
+    "label_kor": "홍차 잎 주머니",
+    "label_eng": "black_tea",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/black_tea.png",
+    "level": 2
+  },
+  {
+    "id": 163,
+    "value": "flame_root",
+    "label_kor": "화염초 뿌리",
+    "label_eng": "flame_root",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/flame_root.png",
+    "level": 2
+  },
+  {
+    "id": 164,
+    "value": "flame_insect",
+    "label_kor": "화염충",
+    "label_eng": "flame_insect",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/flame_insect.png",
+    "level": 5
+  },
+  {
+    "id": 165,
+    "value": "giant_telescope",
+    "label_kor": "거대 망원경",
+    "label_eng": "giant_telescope",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/giant_telescope.png",
+    "level": 1
+  },
+  {
+    "id": 166,
+    "value": "black_scales",
+    "label_kor": "검은 비늘",
+    "label_eng": "black_scales",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/black_scales.png",
+    "level": 3
+  },
+  {
+    "id": 167,
+    "value": "humility_crown",
+    "label_kor": "겸손의 왕관",
+    "label_eng": "humility_crown",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/humility_crown.png",
+    "level": 4
+  },
+  {
+    "id": 168,
+    "value": "clay_tablet",
+    "label_kor": "뇌문 점토판",
+    "label_eng": "clay_tablet",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/clay_tablet.webp",
+    "level": 4
+  },
+  {
+    "id": 169,
+    "value": "riley_congregation_clock",
+    "label_kor": "라일리의 회중시계",
+    "label_eng": "riley_congregation_clock",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/riley_congregation_clock.png",
+    "level": 2
+  },
+  {
+    "id": 170,
+    "value": "ruby_brooch",
+    "label_kor": "루비 브로치",
+    "label_eng": "ruby_brooch",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/ruby_brooch.png",
+    "level": 3
+  },
+  {
+    "id": 171,
+    "value": "meteor_shower",
+    "label_kor": "메테오 샤워",
+    "label_eng": "meteor_shower",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/meteor_shower.png",
+    "level": 3
+  },
+  {
+    "id": 172,
+    "value": "walter_work_monocle",
+    "label_kor": "발터의 작업용 단안경",
+    "label_eng": "walter_work_monocle",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/walter_work_monocle.png",
+    "level": 4
+  },
+  {
+    "id": 173,
+    "value": "berut_sickle",
+    "label_kor": "베루트의 낫",
+    "label_eng": "berut_sickle",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/berut_sickle.png",
+    "level": 3
+  },
+  {
+    "id": 174,
+    "value": "empty_handle",
+    "label_kor": "비어 있는 검 손잡이",
+    "label_eng": "empty_handle",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/empty_handle.png",
+    "level": 5
+  },
+  {
+    "id": 175,
+    "value": "shining_hourglass",
+    "label_kor": "빛나는 모래시계",
+    "label_eng": "shining_hourglass",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/shining_hourglass.png",
+    "level": 2
+  },
+  {
+    "id": 176,
+    "value": "shield_mate",
+    "label_kor": "실드 메이트",
+    "label_eng": "shield_mate",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/shield_mate.png",
+    "level": 6
+  },
+  {
+    "id": 177,
+    "value": "ice_wings",
+    "label_kor": "얼음 날개",
+    "label_eng": "ice_wings",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/ice_wings.png",
+    "level": 6
+  },
+  {
+    "id": 178,
+    "value": "six_leaf_clover",
+    "label_kor": "여섯 잎 클로버",
+    "label_eng": "six_leaf_clover",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/six_leaf_clover.png",
+    "level": 3
+  },
+  {
+    "id": 179,
+    "value": "absolute_ring",
+    "label_kor": "절대반지",
+    "label_eng": "absolute_ring",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/absolute_ring.png",
+    "level": 2
+  },
+  {
+    "id": 180,
+    "value": "chintamani_stone",
+    "label_kor": "친타마니 돌",
+    "label_eng": "chintamani_stone",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/chintamani_stone.png",
+    "level": 0
+  },
+  {
+    "id": 181,
+    "value": "blue_claws",
+    "label_kor": "푸른 발톱",
+    "label_eng": "blue_claws",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/blue_claws.png",
+    "level": 3
+  },
+  {
+    "id": 182,
+    "value": "blue_wrist_guard",
+    "label_kor": "푸른 손목 보호대",
+    "label_eng": "blue_wrist_guard",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/blue_wrist_guard.png",
+    "level": 5
+  },
+  {
+    "id": 183,
+    "value": "lightning_rod",
+    "label_kor": "피뢰침",
+    "label_eng": "lightning_rod",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/lightning_rod.png",
+    "level": 4
+  },
+  {
+    "id": 184,
+    "value": "bloodstone_earrings",
+    "label_kor": "혈석 귀걸이",
+    "label_eng": "bloodstone_earrings",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/bloodstone_earrings.png",
+    "level": 3
+  },
+  {
+    "id": 185,
+    "value": "white_bread",
+    "label_kor": "흰 테두리 빵",
+    "label_eng": "white_bread",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/white_bread.png",
+    "level": 2
+  },
+  {
+    "id": 186,
+    "value": "iridescent_feathers",
+    "label_kor": "무지갯빛 깃털",
+    "label_eng": "iridescent_feathers",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/iridescent_feathers.png",
+    "level": 2
+  },
+  {
+    "id": 187,
+    "value": "heitas_soul_powder",
+    "label_kor": "헤이타의 영혼 가루",
+    "label_eng": "heitas_soul_powder",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/heitas_soul_powder.png",
+    "level": 4
+  },
+  {
+    "id": 188,
+    "value": "meditation_books",
+    "label_kor": "명상 서적",
+    "label_eng": "meditation_books",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/meditation_books.png",
+    "level": 3
+  },
+  {
+    "id": 190,
+    "value": "rock_elephant",
+    "label_kor": "바위코끼리",
+    "label_eng": "rock_elephant",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/rock_elephant.png",
+    "level": 4
+  },
+  {
+    "id": 191,
+    "value": "solis_decree",
+    "label_kor": "솔리스 데크리",
+    "label_eng": "solis_decree",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/solis_decree.png",
+    "level": 6
+  },
+  {
+    "id": 192,
+    "value": "cloud_shoulder_ornament",
+    "label_kor": "운철 어깨 장식",
+    "label_eng": "cloud_shoulder_ornament",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/cloud_shoulder_ornament.png",
+    "level": 4
+  },
+  {
+    "id": 193,
+    "value": "cloud_iron_earrings",
+    "label_kor": "운철 귀걸이",
+    "label_eng": "cloud_iron_earrings",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/cloud_iron_earrings.png",
+    "level": 2
+  },
+  {
+    "id": 194,
+    "value": "solis_decusa",
+    "label_kor": "솔리스 데쿠사",
+    "label_eng": "solis_decusa",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/solis_decusa.png",
+    "level": 3
+  },
+  {
+    "id": 195,
+    "value": "solis_parvo",
+    "label_kor": "솔리스 파르보",
+    "label_eng": "solis_parvo",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/solis_parvo.png",
+    "level": 4
+  },
+  {
+    "id": 196,
+    "value": "eternal_brazier",
+    "label_kor": "영원의 화로",
+    "label_eng": "eternal_brazier",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/eternal_brazier.png",
+    "level": 2
+  },
+  {
+    "id": 197,
+    "value": "sunset_cloak",
+    "label_kor": "물드는 노을 망토",
+    "label_eng": "sunset_cloak",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/sunset_cloak.png",
+    "level": 4
+  },
+  {
+    "id": 198,
+    "value": "ancient_anvil",
+    "label_kor": "고대 모루",
+    "label_eng": "ancient_anvil",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/ancient_anvil.png",
+    "level": 3
+  },
+  {
+    "id": 199,
+    "value": "solis_pratu",
+    "label_kor": "솔리스 프라투",
+    "label_eng": "solis_pratu",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/solis_pratu.png",
+    "level": 2
+  },
+  {
+    "id": 200,
+    "value": "shield_bag",
+    "label_kor": "방패 가방",
+    "label_eng": "shield_bag",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/shield_bag.png",
+    "level": 3
+  },
+  {
+    "id": 201,
+    "value": "tuning_fork",
+    "label_kor": "소리굽쇠",
+    "label_eng": "tuning_fork",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/tuning_fork.png",
+    "level": 4
+  },
+  {
+    "id": 202,
+    "value": "sealed_tejas",
+    "label_kor": "봉인된 테자스",
+    "label_eng": "sealed_tejas",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/sealed_tejas.png",
+    "level": 3
+  },
+  {
+    "id": 204,
+    "value": "ice_cloud_butterfly",
+    "label_kor": "얼음구름 나비",
+    "label_eng": "ice_cloud_butterfly",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/ice_cloud_butterfly.png",
+    "level": 3
+  },
+  {
+    "id": 205,
+    "value": "water_droplets_from_plitvice",
+    "label_kor": "플리트비체의 물방울",
+    "label_eng": "water_droplets_from_plitvice",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/water_droplets_from_plitvice.png",
+    "level": 0
+  },
+  {
+    "id": 206,
+    "value": "tactical_manual",
+    "label_kor": "전술 지침서",
+    "label_eng": "tactical_manual",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/tactical_manual.png",
+    "level": 3
+  },
+  {
+    "id": 207,
+    "value": "swaying_eyes",
+    "label_kor": "일렁이는 눈",
+    "label_eng": "swaying_eyes",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/swaying_eyes.png",
+    "level": 4
+  },
+  {
+    "id": 208,
+    "value": "sheet_music_storm",
+    "label_kor": "악보 '폭풍'",
+    "label_eng": "sheet_music_storm",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/sheet_music_storm.png",
+    "level": 2
+  },
+  {
+    "id": 209,
+    "value": "sheet_music_galaxy",
+    "label_kor": "악보 '은하'",
+    "label_eng": "sheet_music_galaxy",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/sheet_music_galaxy.png",
+    "level": 2
+  },
+  {
+    "id": 210,
+    "value": "brass_mirror_fragments",
+    "label_kor": "황동거울 파편",
+    "label_eng": "brass_mirror_fragments",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/brass_mirror_fragments.png",
+    "level": 3
+  },
+  {
+    "id": 211,
+    "value": "stabbing_textbook",
+    "label_kor": "찌르기 교본",
+    "label_eng": "stabbing_textbook",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/stabbing_textbook.png",
+    "level": 0
+  },
+  {
+    "id": 212,
+    "value": "talisman_of_talent",
+    "label_kor": "재주의 부적",
+    "label_eng": "talisman_of_talent",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/talisman_of_talent.png",
+    "level": 1
+  },
+  {
+    "id": 213,
+    "value": "broken_sapphire",
+    "label_kor": "부서진 사파이어",
+    "label_eng": "broken_sapphire",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/broken_sapphire.png",
+    "level": 2
+  },
+  {
+    "id": 214,
+    "value": "cloak_of_the_green",
+    "label_kor": "환록의 망토",
+    "label_eng": "cloak_of_the_green",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/cloak_of_the_green.png",
+    "level": 2
+  },
+  {
+    "id": 215,
+    "value": "wings",
+    "label_kor": "날개",
+    "label_eng": "wings",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/wings.png",
+    "level": 5
+  },
+  {
+    "id": 216,
+    "value": "lightning_chakram",
+    "label_kor": "전격 차크람",
+    "label_eng": "lightning_chakram",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/lightning_chakram.png",
+    "level": 4
+  },
+  {
+    "id": 217,
+    "value": "lightning_struck_tree_branch",
+    "label_kor": "번개 맞은 나뭇가지",
+    "label_eng": "lightning_struck_tree_branch",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/lightning_struck_tree_branch.png",
+    "level": 2
+  },
+  {
+    "id": 218,
+    "value": "thunders_earrings",
+    "label_kor": "썬더의 귀걸이",
+    "label_eng": "thunders_earrings",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/thunders_earrings.png",
+    "level": 5
+  },
+  {
+    "id": 219,
+    "value": "ahmads_soul_powder",
+    "label_kor": "아마드의 영혼 가루",
+    "label_eng": "ahmads_soul_powder",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/ahmads_soul_powder.png",
+    "level": 4
+  },
+  {
+    "id": 220,
+    "value": "stinging_bug",
+    "label_kor": "찌릿충",
+    "label_eng": "stinging_bug",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/stinging_bug.png",
+    "level": 5
+  },
+  {
+    "id": 221,
+    "value": "frozen_bow",
+    "label_kor": "얼어붙은 활",
+    "label_eng": "frozen_bow",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/frozen_bow.png",
+    "level": 5
+  },
+  {
+    "id": 222,
+    "value": "black_planet",
+    "label_kor": "암흑 행성",
+    "label_eng": "black_planet",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/black_planet.png",
+    "level": 4
+  },
+  {
+    "id": 223,
+    "value": "ashen_planet",
+    "label_kor": "잿빛 행성",
+    "label_eng": "ashen_planet",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/ashen_planet.png",
+    "level": 5
+  },
+  {
+    "id": 224,
+    "value": "petrification",
+    "label_kor": "석화",
+    "label_eng": "petrification",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/petrification.png",
+    "level": 1
+  },
+  {
+    "id": 225,
+    "value": "hand_mirror",
+    "label_kor": "손 거울",
+    "label_eng": "hand_mirror",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/hand_mirror.png",
+    "level": 2
+  },
+  {
+    "id": 226,
+    "value": "white_paper",
+    "label_kor": "하얀 종이",
+    "label_eng": "white_paper",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/white_paper.png",
+    "level": 1
+  },
+  {
+    "id": 227,
+    "value": "eternal_sun",
+    "label_kor": "영원의 식",
+    "label_eng": "eternal_sun",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/eternal_sun.png",
+    "level": 3
+  },
+  {
+    "id": 228,
+    "value": "flux_mk2",
+    "label_kor": "플럭스 결합기 Mk.2",
+    "label_eng": "flux_mk2",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/flux_mk2.png",
+    "level": 3
+  },
+  {
+    "id": 229,
+    "value": "overall_armband",
+    "label_kor": "채굴작업 총괄 완장",
+    "label_eng": "overall_armband",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/overall_armband.png",
+    "level": 4
+  },
+  {
+    "id": 230,
+    "value": "badge_of_devotion",
+    "label_kor": "헌신의 휘장",
+    "label_eng": "badge_of_devotion",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/badge_of_devotion.png",
+    "level": 3
+  },
+  {
+    "id": 231,
+    "value": "mysterious_weight",
+    "label_kor": "신비한 무게 추",
+    "label_eng": "mysterious_weight",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/mysterious_weight.png",
+    "level": 4
+  },
+  {
+    "id": 232,
+    "value": "lucky_medal",
+    "label_kor": "행운의 메달",
+    "label_eng": "lucky_medal",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/lucky_medal.png",
+    "level": 2
+  },
+  {
+    "id": 233,
+    "value": "neutralizer_black",
+    "label_kor": "중화제 흑",
+    "label_eng": "neutralizer_black",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/neutralizer_black.png",
+    "level": 3
+  },
+  {
+    "id": 234,
+    "value": "green_ink_bottle_v2",
+    "label_kor": "초록 잉크병",
+    "label_eng": "green_ink_bottle",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/green_ink_bottle.png",
+    "level": 3
+  },
+  {
+    "id": 235,
+    "value": "shock_amplifier",
+    "label_kor": "충격 증폭기",
+    "label_eng": "shock_amplifier",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/shock_amplifier.png",
+    "level": 14
+  },
+  {
+    "id": 236,
+    "value": "crystal_of_harmony",
+    "label_kor": "조화의 수정",
+    "label_eng": "crystal_of_harmony",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/crystal_of_harmony.png",
+    "level": 1
+  },
+  {
+    "id": 237,
+    "value": "eternal_winter",
+    "label_kor": "영원한 겨울",
+    "label_eng": "eternal_winter",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/eternal_winter.png",
+    "level": 2
+  },
+  {
+    "id": 238,
+    "value": "lightning_amulet",
+    "label_kor": "전격의 부적",
+    "label_eng": "lightning_amulet",
+    "tier": "common",
+    "image": "https://img.sephiria.wiki/artifacts/lightning_amulet.png",
+    "level": 3
+  },
+  {
+    "id": 239,
+    "value": "multicolored_candy_jar",
+    "label_kor": "오색사탕 유리병",
+    "label_eng": "multicolored_candy_jar",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/multicolored_candy_jar.png",
+    "level": 3
+  },
+  {
+    "id": 240,
+    "value": "plump_fruits",
+    "label_kor": "통통열매 양동이",
+    "label_eng": "plump_fruits",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/plump_fruits.png",
+    "level": 1
+  },
+  {
+    "id": 241,
+    "value": "defect_probe",
+    "label_kor": "결함 탐침봉",
+    "label_eng": "defect_probe",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/defect_probe.png",
+    "level": 6
+  },
+  {
+    "id": 242,
+    "value": "wanderers_necklace",
+    "label_kor": "유랑자의 목걸이",
+    "label_eng": "wanderers_necklace",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/wanderers_necklace.png",
+    "level": 2
+  },
+  {
+    "id": 243,
+    "value": "heart_of_the_beast",
+    "label_kor": "야수의 심장",
+    "label_eng": "heart_of_the_beast",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/heart_of_the_beast.png",
+    "level": 4
+  },
+  {
+    "id": 244,
+    "value": "stone_wheel",
+    "label_kor": "돌 가락바퀴",
+    "label_eng": "stone_wheel",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/stone_wheel.png",
+    "level": 4
+  },
+  {
+    "id": 245,
+    "value": "lerids_battleb_racelet",
+    "label_kor": "레리드의 전투 팔찌",
+    "label_eng": "lerids_battleb_racelet",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/lerids_battleb_racelet.png",
+    "level": 3
+  },
+  {
+    "id": 246,
+    "value": "elastic_band",
+    "label_kor": "탄성 밴드",
+    "label_eng": "elastic_band",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/elastic_band.png",
+    "level": 2
+  },
+  {
+    "id": 247,
+    "value": "unalloyed_gold_needle",
+    "label_kor": "북향의 금빛 침",
+    "label_eng": "unalloyed_gold_needle",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/unalloyed_gold_needle.png",
+    "level": 2
+  },
+  {
+    "id": 248,
+    "value": "thunder_judgment",
+    "label_kor": "천둥의 심판",
+    "label_eng": "thunder_judgment",
+    "tier": "legend",
+    "image": "https://img.sephiria.wiki/artifacts/thunder_judgment.png",
+    "level": 4
+  },
+  {
+    "id": 249,
+    "value": "academy_fountain_pen",
+    "label_kor": "아카데미 만년필",
+    "label_eng": "academy_fountain_pen",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/academy_fountain_pen.png",
+    "level": 4
+  },
+  {
+    "id": 250,
+    "value": "zorous_watering_can",
+    "label_kor": "조로우의 물뿌리개",
+    "label_eng": "zorous_watering_can",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/zorous_watering_can.png",
+    "level": 4
+  },
+  {
+    "id": 251,
+    "value": "snow_mountain_big_eared_bat",
+    "label_kor": "설산 큰귀박쥐",
+    "label_eng": "snow_mountain_big_eared_bat",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/snow_mountain_big_eared_bat.png",
+    "level": 4
+  },
+  {
+    "id": 252,
+    "value": "plasma_helmet",
+    "label_kor": "플라즈마 헬맷",
+    "label_eng": "plasma_helmet",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/plasma_helmet.png",
+    "level": 4
+  },
+  {
+    "id": 253,
+    "value": "red_planet_observation_log",
+    "label_kor": "붉은행성 관찰일지",
+    "label_eng": "red_planet_observation_log",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/red_planet_observation_log.png",
+    "level": 4
+  },
+  {
+    "id": 254,
+    "value": "water_spirit",
+    "label_kor": "물의 정령",
+    "label_eng": "water_spirit",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/water_spirit.png",
+    "level": 4
+  },
+  {
+    "id": 255,
+    "value": "frost_guillotine",
+    "label_kor": "혹한의 길로틴",
+    "label_eng": "frost_guillotine",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/frost_guillotine.png",
+    "level": 2
+  },
+  {
+    "id": 256,
+    "value": "archive_sun",
+    "label_kor": "서고의 태양",
+    "label_eng": "archive_sun",
+    "tier": "solid",
+    "image": "https://img.sephiria.wiki/artifacts/archive_sun.png",
+    "level": 4
+  },
+  {
+    "id": 257,
+    "value": "yakumo_kodachi",
+    "label_kor": "소태도 야쿠모",
+    "label_eng": "yakumo_kodachi",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/yakumo_kodachi.png",
+    "level": 3
+  },
+  {
+    "id": 258,
+    "value": "angry_potato",
+    "label_kor": "화난 감자",
+    "label_eng": "angry_potato",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/angry_potato.png",
+    "level": 3
+  },
+  {
+    "id": 259,
+    "value": "wanderer_blessing",
+    "label_kor": "나그네의 축복",
+    "label_eng": "wanderer_blessing",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/wanderer_blessing.png",
+    "level": 2
+  },
+  {
+    "id": 260,
+    "value": "alchemist_flask",
+    "label_kor": "나그네의 축복",
+    "label_eng": "alchemist_flask",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/alchemist_flask.png",
+    "level": 2
+  },
+  {
+    "id": 261,
+    "value": "courage_amulet",
+    "label_kor": "용기의 아뮬렛",
+    "label_eng": "courage_amulet",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/courage_amulet.png",
+    "level": 2
+  },
+  {
+    "id": 262,
+    "value": "whirlwind_stone",
+    "label_kor": "회오리 돌",
+    "label_eng": "whirlwind_stone",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/whirlwind_stone.png",
+    "level": 3
+  },
+  {
+    "id": 263,
+    "value": "toxic_spore_pouch",
+    "label_kor": "맹독 포자 주머니",
+    "label_eng": "toxic_spore_pouch",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/toxic_spore_pouch.png",
+    "level": 3
+  },
+  {
+    "id": 264,
+    "value": "topaz_badge",
+    "label_kor": "토파즈 배지",
+    "label_eng": "topaz_badge",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/topaz_badge.png",
+    "level": 4
+  },
+  {
+    "id": 265,
+    "value": "garnet_badge",
+    "label_kor": "가넷 배지",
+    "label_eng": "garnet_badge",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/garnet_badge.png",
+    "level": 4
+  },
+  {
+    "id": 266,
+    "value": "diamond_badge",
+    "label_kor": "다이아몬드 배지",
+    "label_eng": "diamond_badge",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/diamond_badge.png",
+    "level": 4
+  },
+  {
+    "id": 267,
+    "value": "red_mushroom",
+    "label_kor": "빨간 버섯",
+    "label_eng": "red_mushroom",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/red_mushroom.png",
+    "level": 3
+  },
+  {
+    "id": 268,
+    "value": "tome_of_transmutation_lightning",
+    "label_kor": "변환의 서 : 번개",
+    "label_eng": "tome_of_transmutation_lightning",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/tome_of_transmutation_lightning.png",
+    "level": 4
+  },
+  {
+    "id": 269,
+    "value": "tome_of_transmutation_ice",
+    "label_kor": "변환의 서 : 얼음",
+    "label_eng": "tome_of_transmutation_ice",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/tome_of_transmutation_ice.png",
+    "level": 4
+  },
+  {
+    "id": 270,
+    "value": "tome_of_transmutation_fire",
+    "label_kor": "변환의 서 : 화염",
+    "label_eng": "tome_of_transmutation_fire",
+    "tier": "rare",
+    "image": "https://img.sephiria.wiki/artifacts/tome_of_transmutation_fire.png",
+    "level": 4
+  },
+  {
+    "id": 271,
+    "value": "bento",
+    "label_kor": "도시락",
+    "label_eng": "bento",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/bento.png",
+    "level": 4
+  },
+  {
+    "id": 272,
+    "value": "cursed_letter",
+    "label_kor": "저주받은 편지",
+    "label_eng": "cursed_letter",
+    "tier": "advanced",
+    "image": "https://img.sephiria.wiki/artifacts/cursed_letter.png",
+    "level": 2
+  }
+]

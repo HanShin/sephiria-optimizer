@@ -1,0 +1,48 @@
+{
+  "name": "sephiria-optimizer-windows",
+  "version": "0.2.0",
+  "description": "Sephiria inventory capture and artifact/tablet placement optimizer for Windows",
+  "main": "src/main.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test test/*.test.js",
+    "dist:win": "electron-builder --win zip --x64"
+  },
+  "dependencies": {
+    "pngjs": "7.0.0"
+  },
+  "devDependencies": {
+    "electron": "43.4.0",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "com.hanshin.sephiria-optimizer.windows",
+    "productName": "Sephiria Optimizer",
+    "asar": true,
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "resources",
+        "to": "sephiria-resources"
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "zip",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "Sephiria-Optimizer-Windows-${version}-${arch}.${ext}"
+    }
+  }
+}
