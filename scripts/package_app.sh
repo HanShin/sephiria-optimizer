@@ -2,7 +2,7 @@
 set -euo pipefail
 
 PROJECT_DIR="${0:A:h:h}"
-DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
+DEVELOPER_DIR="${DEVELOPER_DIR:-/Applications/Xcode.app/Contents/Developer}"
 BUILD_CACHE_ROOT="${TMPDIR:-/tmp}/sephiria-optimizer-build"
 export DEVELOPER_DIR
 export CLANG_MODULE_CACHE_PATH="$BUILD_CACHE_ROOT/clang"

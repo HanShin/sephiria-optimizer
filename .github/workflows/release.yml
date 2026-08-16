@@ -13,8 +13,8 @@ jobs:
     name: Build Windows x64 ZIP
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -37,7 +37,7 @@ jobs:
           if (-not $zip) { throw "Windows ZIP was not created." }
           $hash = (Get-FileHash $zip.FullName -Algorithm SHA256).Hash.ToLower()
           Set-Content -Path "$($zip.FullName).sha256" -Value "$hash  $($zip.Name)" -Encoding ascii
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: windows-release
           path: |
@@ -48,9 +48,11 @@ jobs:
   macos:
     name: Build macOS ZIP
     runs-on: macos-14
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_16.2.app/Contents/Developer
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
       - name: Verify tag and version
@@ -70,7 +72,7 @@ jobs:
           ditto -c -k --sequesterRsrc --keepParent "dist/Sephiria Optimizer.app" "$archive"
           cd dist
           shasum -a 256 "$(basename "$archive")" > "$(basename "$archive").sha256"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: macos-release
           path: |
@@ -83,7 +85,7 @@ jobs:
     needs: [windows, macos]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           path: release-assets
           merge-multiple: true
