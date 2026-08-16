@@ -1,6 +1,6 @@
 {
   "name": "sephiria-optimizer-windows",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Sephiria inventory capture and artifact/tablet placement optimizer for Windows",
   "main": "src/main.js",
   "license": "UNLICENSED",
